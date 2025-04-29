@@ -1,0 +1,1816 @@
+{
+  "data": [
+    {
+      "title": "Procesador Intel Core i5-14400, S-1700, 250GHz,",
+      "price": 29900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/445-home_default/i5-14400.jpg",
+      "availability": false,
+      "details": {
+        "ref": "i5-14400",
+        "stock": 1,
+        "description": "Características\n\n\nFamilia de procesador: Intel® Core™ i5\nModelo del procesador: i5-14400\nFrecuencia del procesador: 2.5 GHz\nSocket de procesador: LGA 1700\nNúmero de núcleos: 10",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Soporte para monitores klipxtreme hasta 27\" soporte",
+      "price": 4900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/332-home_default/KMM-400.jpg",
+      "availability": false,
+      "details": {
+        "ref": "KMM-400",
+        "stock": 1,
+        "description": "Especificaciones\n\n\n\nTamaño de la pantalla: 17 a 27 pulgadas\nCapacidad de carga: 2 a 6,5kg\nÁngulo de rotación: +180°~-180°\nÁngulo de inclinación: +90°~-45\nÁngulo de giro: +90°~-90°\nSistema de administración de cables: Sí\nCondiciones ambientales: Para interior\nPerfil de montaje: 500mm\nCompatibilidad VESA: 75x75 a 100x100\n\n\n\n \nCaracterísticas físicas\n\n\n\nMaterial: Acero, aluminio y plástico\nColor: Negro\nDimensiones: 11,7x47,8x57cm\nPeso: 2,10kg",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Teclado Mecánico Gamer Redragon Kumara K552W RGB,",
+      "price": 6058,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/174-home_default/teclado-mecanico-gamer-redragon-kumara-k552w-rgb-switch-red-usb-blanco.jpg",
+      "availability": false,
+      "details": {
+        "ref": "K552W",
+        "stock": 2,
+        "description": "Teclado Mecánico Gamer Redragon Kumara K552W RGB, Switch Red, USB, Blanco",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Memoria RAM Kingston FURY Beast DDR5, 5600MHz, 16GB,",
+      "price": 8830,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/439-home_default/memoria-ram-kingston-fury-beast-ddr5-5600mhz-16gb-ecc-cl40-xmp.jpg",
+      "availability": false,
+      "details": { "ref": "MEMKIN16GBDDR55600MHZ", "stock": 7, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Kit Combo  Quasad bundle 4 en 1 Teclado Mouse",
+      "price": 5647,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/175-home_default/kit-combo-quasad-bundle-4-en-1-teclado-mouse-headset-mouse-pad.jpg",
+      "availability": false,
+      "details": { "ref": "kit4en1", "stock": 7, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Monitor Quasad  195\" QM-B20 HD 1366×768 - 60Hz",
+      "price": 9138,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/222-home_default/QM-B20.jpg",
+      "availability": false,
+      "details": { "ref": "QM-B20", "stock": 7, "description": "QM-B20", "warranty": "" }
+    },
+    {
+      "title": "Case Antec AX81 Elite Midi-Tower, ATX",
+      "price": 7900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/282-home_default/ax81antec.jpg",
+      "availability": false,
+      "details": {
+        "ref": "AX81ANTEC",
+        "stock": 7,
+        "description": "Diseño único y potente disipación de calor\nPanel frontal de malla minimalista masivo\nPanel frontal de alto flujo de aire\nVentiladores ARGB de 4 x 120 mm preinstalados\nEl espacio de 24 mm para la gestión de cables garantiza que la configuración de su PC se vea ordenada.\nHasta 8 ventiladores de 120 mm simultáneamente",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "SSD Kingston NV2 NVMe, 2TB,  PCI 40",
+      "price": 14900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/394-home_default/NV22TB.jpg",
+      "availability": false,
+      "details": { "ref": "NV22TB", "stock": 7, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Fuente de Poder Corsair CV750 80 PLUS Bronze",
+      "price": 8700,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/302-home_default/cv750.jpg",
+      "availability": false,
+      "details": { "ref": "cv750", "stock": 5, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Enfriamiento Líquido para CPU, Corsair H150 ARGB",
+      "price": 15299,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/310-home_default/h150rgb.jpg",
+      "availability": false,
+      "details": { "ref": "H150", "stock": 7, "description": "Corsair H150", "warranty": "" }
+    },
+    {
+      "title": "UPS BV800, APC 450W, 800VA, 120V, Salida 120V, 6",
+      "price": 8900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/398-home_default/BV800.jpg",
+      "availability": false,
+      "details": {
+        "ref": "BV800",
+        "stock": 1,
+        "description": "Características\n\n\nCapacidad de potencia de salida (VA): 800 VA\nPotencia de salida: 450 W\nCantidad de salidas AC: 6\nVoltaje nominal de entrada: 120",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador AMD Ryzen 5 8600G con Gráficos Radeon 760M",
+      "price": 29900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/450-home_default/8600G.jpg",
+      "availability": false,
+      "details": {
+        "ref": "8600G",
+        "stock": 1,
+        "description": "Características\n\n\nFamilia de procesador: AMD Ryzen™ 5\nModelo del procesador: 8600G\nFrecuencia del procesador: 4,3 GHz\nSocket de procesador: Socket AM5\nNúmero de núcleos: 6",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Teclado Mecanico Gamer XPG Summoner RGB, Cherry MX",
+      "price": 8112,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/179-home_default/XPGSummoner.jpg",
+      "availability": false,
+      "details": {
+        "ref": "XPGSummoner",
+        "stock": 2,
+        "description": "Teclado Gamer XPG Summoner LED RGB, Cherry MX Blue, USB",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Teclado Genius Smart KB-100, Alámbrico, Negro (Español)",
+      "price": 914,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/156-home_default/KB100.jpg",
+      "availability": false,
+      "details": {
+        "ref": "KB-100",
+        "stock": 2,
+        "description": "Teclado Genius Smart KB-100, Alámbrico, Negro (Español)",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video Gigabyte NVIDIA GTX 1650 OC, 4GB",
+      "price": 20535,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/228-home_default/GV-N1656OC-4GD.jpg",
+      "availability": false,
+      "details": { "ref": "GV-N1656OC-4GD", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Cooler de aire Cooler Master Hyper H410R, 92mm, 600",
+      "price": 4004,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/312-home_default/H410R.jpg",
+      "availability": false,
+      "details": { "ref": "412R", "stock": 1, "description": "HYPER H412R", "warranty": "" }
+    },
+    {
+      "title": "Fuente de Poder Corsair CX650M 80 PLUS Bronze, 650W",
+      "price": 9138,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/303-home_default/cx650m.jpg",
+      "availability": false,
+      "details": {
+        "ref": "CX650M",
+        "stock": 1,
+        "description": "Fuente de Poder Corsair CX650M 80 PLUS Bronze, 24-pin ATX, 12cm, 650W",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Mid Tower Normal USB 600watts",
+      "price": 4004,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/286-home_default/case600watts.jpg",
+      "availability": false,
+      "details": {
+        "ref": "Case Mid",
+        "stock": 7,
+        "description": "Case Mid Tower Normal USB 600watts",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "SSD Kingston NV2 NVMe, 1TB, PCIe 40",
+      "price": 7200,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/395-home_default/NV21TB.jpg",
+      "availability": false,
+      "details": { "ref": "nv21tb", "stock": 14, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Monitor LG 24MK430H-B LED 24'', Full HD, 75Hz, HDMI,",
+      "price": 23513,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/224-home_default/24mk430.jpg",
+      "availability": false,
+      "details": { "ref": "24MK430H-B", "stock": 7, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Memoria RAM Adata 16GB DDR4, 3200MHz para PC",
+      "price": 4415,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/434-home_default/16gbadata3200mhz.jpg",
+      "availability": false,
+      "details": {
+        "ref": "16gbddr4adata",
+        "stock": 5,
+        "description": "Memoria RAM Adata 16GB DDR4, 3200MHz para PC",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "UPS APC BV1000, 600W, 1000VA, 120V, 6 Contactos",
+      "price": 12500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/399-home_default/bv1000.jpg",
+      "availability": false,
+      "details": {
+        "ref": "BV1000",
+        "stock": 1,
+        "description": "Características\n\n\nCapacidad de potencia de salida (VA): 1000 VA\nPotencia de salida: 600 W\nCantidad de salidas AC: 6\nVoltaje nominal de entrada: 120",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador Intel Core i5-14600K, S-1700, 350GHz,",
+      "price": 44049,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/443-home_default/i514600k.jpg",
+      "availability": false,
+      "details": {
+        "ref": "I5-14600K",
+        "stock": 1,
+        "description": "Características\n\n\nFamilia de procesador: Intel® Core™ i5\nModelo del procesador: i5-14600K\nFrecuencia del procesador: 3.5 GHz\nSocket de procesador: LGA 1700\nNúmero de núcleos: 14",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mouse Genius Óptico DX-110, Alámbrico, USB, 1000DPI,",
+      "price": 512,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/157-home_default/DX110.jpg",
+      "availability": false,
+      "details": {
+        "ref": "DX-110",
+        "stock": 2,
+        "description": "Mouse Genius Óptico DX-110, Alámbrico, USB, 1000DPI, Negro",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Cooler liquido Azza Galeforce  240mm para",
+      "price": 8112,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/311-home_default/cooler240.jpg",
+      "availability": false,
+      "details": {
+        "ref": "azza240mm",
+        "stock": 1,
+        "description": "Cooler liquido Azza Galeforce  240mm para procesadores AMD e INTEL",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador AMD Ryzen 7 7700, S-AM5",
+      "price": 39737,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/263-home_default/R77700.jpg",
+      "availability": false,
+      "details": {
+        "ref": "Ryzen 7 7700",
+        "stock": 1,
+        "description": "Procesador AMD Ryzen 7 7700, S-AM5",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video Gigabyte NVIDIA GeForce RTX 3060",
+      "price": 43022,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/244-home_default/GV-N3060GAMINGOC-12GD.jpg",
+      "availability": false,
+      "details": { "ref": "GV-N3060GAMING OC-12GD", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Fuente de Poder Corsair RM1000e 80 PLUS Gold, 24-pin",
+      "price": 18900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/304-home_default/RM1000e.jpg",
+      "availability": false,
+      "details": { "ref": "RM1000e", "stock": 2, "description": "", "warranty": "" }
+    },
+    {
+      "title": "SSD Kingston NV2 NVMe, 500GB, PCI Express 40, M2",
+      "price": 5900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/276-home_default/NV2500GB.jpg",
+      "availability": false,
+      "details": { "ref": "nv2500gb", "stock": 7, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Case Generico 500watts Heltech",
+      "price": 3079,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/284-home_default/caseheltech.jpg",
+      "availability": false,
+      "details": {
+        "ref": "casez06",
+        "stock": 7,
+        "description": "Case Generico 500watts Hektech",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor LG 20MK400H-B LED 195\", 60Hz, HDMI, Negro",
+      "price": 8200,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/225-home_default/20mk400.jpg",
+      "availability": false,
+      "details": {
+        "ref": "20mk400",
+        "stock": 7,
+        "description": "Monitor LG 20MK400H-B LED 19.5\", 60Hz, HDMI, Negro",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Memoria RAM Kingston 16GB DDR4, 3200MHz para PC",
+      "price": 4415,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/435-home_default/16gbkin3200mhz.jpg",
+      "availability": false,
+      "details": {
+        "ref": "16gbddr4kingston",
+        "stock": 5,
+        "description": "Memoria RAM Kingston 16GB DDR4, 3200MHz para PC",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "APC BR1350M2-LM Línea Interactiva, 810W, 1350VA, 10",
+      "price": 27700,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/400-home_default/BR1350M2-LM.jpg",
+      "availability": false,
+      "details": {
+        "ref": "BR1350M2-LM",
+        "stock": 1,
+        "description": "Características\n\n\nCapacidad de potencia de salida (VA): 1350 VA\nPotencia de salida: 810 W\nÍndice de aumento de energía: 1080 J\nCantidad de salidas AC: 10\nVoltaje nominal de entrada: 120",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador Intel Core i9-14900KF, S-1700, 56 GHz,",
+      "price": 74853,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/441-home_default/i9-14900kf.jpg",
+      "availability": false,
+      "details": {
+        "ref": "i9-14900KF",
+        "stock": 2,
+        "description": "Procesador Intel Core i9-14900KF, S-1700, 5.6 GHz, 24-Core,  (14va. Generación - Raptor Lake)",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Cooler para CPU  Cooler Master Hyper 212 Black",
+      "price": 6160,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/313-home_default/hyper212black.jpg",
+      "availability": false,
+      "details": {
+        "ref": "RR-212S-20PK-R2",
+        "stock": 2,
+        "description": "Características\n\n\nDiámetro de ventilador: 120 mm\nNúmero de ventiladores: 1 Ventilador(es)\nNivel de ruido: 26 Db\nAdecuado para: Procesador",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Memoria RAM Adata AD5U480032G-S DDR5, 4800MHz, 32GB",
+      "price": 11808,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/437-home_default/32GBADAT48000MHZ.jpg",
+      "availability": false,
+      "details": {
+        "ref": "AD5U480032G-S",
+        "stock": 2,
+        "description": "Memoria RAM Adata AD5U480032G-S DDR5, 4800MHz, 32GB",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Fuente De Poder Corsair CV650 80 PLUS Bronze",
+      "price": 7500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/301-home_default/cv650.jpg",
+      "availability": false,
+      "details": { "ref": "CV650", "stock": 2, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Monitor ASUS VA24EHF LED 238\", Full HD, 100Hz, 1MS,",
+      "price": 26594,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/220-home_default/monitor-asus-va24ehf-led-238-full-hd-100hz-1ms-hdmi-negro-montaje-en-pared.jpg",
+      "availability": false,
+      "details": { "ref": "VA24EHF", "stock": 2, "description": "", "warranty": "" }
+    },
+    {
+      "title": "SSD Kingston A400, 480GB, SATA III, 25'', 7 mm",
+      "price": 5031,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/278-home_default/a400480gb.jpg",
+      "availability": false,
+      "details": { "ref": "", "stock": 7, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Case Corsair 5000D AIRFLOW con Ventana, ATX/ sin",
+      "price": 19406,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/283-home_default/5000D.jpg",
+      "availability": false,
+      "details": {
+        "ref": "5000D",
+        "stock": 2,
+        "description": "El 5000D hace que una PC impresionante y digna de una obra maestra sea fácil de construir y aún más fácil de mantener fresca con el espacio y la flexibilidad para montar múltiples radiadores de 360 ​​mm.\nUn panel frontal de acero optimizado para un alto flujo de aire brinda un flujo de aire masivo a su sistema para una máxima refrigeración.\nEl sistema de gestión de cables CORSAIR RapidRoute hace que sea sencillo y rápido pasar los cables principales a través de un único canal oculto, con una puerta con bisagras de fácil acceso y un amplio espacio de 25 mm detrás de la placa base para todos los cables.\nIncluye dos ventiladores CORSAIR AirGuide de 120 mm, que utilizan paletas antivórtice para concentrar el flujo de aire y mejorar la refrigeración.\nUna bandeja de placa base con soportes de ventilador personalizables le permite montar lateralmente hasta 3 ventiladores de 120 mm o hasta un radiador de 360 ​​mm, lo que permite nuevas opciones de refrigeración flexibles",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador AMD Ryzen 7 5700G, S-AM4, 380GHz",
+      "price": 25567,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/260-home_default/5700g.jpg",
+      "availability": false,
+      "details": { "ref": "5700G", "stock": 7, "description": "5700G", "warranty": "" }
+    },
+    {
+      "title": "UPS APC BV500, 300W, 500VA, 6 Contactos",
+      "price": 6999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/401-home_default/BV500.jpg",
+      "availability": false,
+      "details": {
+        "ref": "BV500",
+        "stock": 1,
+        "description": "Características\n\n\nCapacidad de potencia de salida (VA): 500 VA\nPotencia de salida: 300 W\nCantidad de salidas AC: 6\nVoltaje nominal de entrada: 120",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador Intel Core i5-14600KF, S-1700, 350GHz,",
+      "price": 39900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/442-home_default/i5-14600kf.jpg",
+      "availability": false,
+      "details": {
+        "ref": "i5-14600KF",
+        "stock": 1,
+        "description": "Procesador Intel Core i5-14600KF, S-1700, 3.50GHz, 14-Core,  (14va. Generación - Raptor Lake)",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Memoria RAM Kingston FURY Beast DDR5, 5200MHz, 16GB,",
+      "price": 7999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/438-home_default/16GB5200MHZ.jpg",
+      "availability": false,
+      "details": { "ref": "MEMKIN16GBDDR55600MHZ", "stock": 7, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Fuente de Poder Corsair GOLD Modular Shift Series",
+      "price": 26000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/309-home_default/RM1200x.jpg",
+      "availability": false,
+      "details": { "ref": "RM1200x", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Case Antec DF700 Flux con Ventana RGB",
+      "price": 12219,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/280-home_default/DF700.jpg",
+      "availability": false,
+      "details": {
+        "ref": "DF700",
+        "stock": 1,
+        "description": "Plataforma F-LUX: estructura de carcasa avanzada para un excelente flujo de aire + 5 ventiladores de 120 mm incluidos\nControlador de ventilador ARGB y PWM\nProporcione un flujo de aire masivo a sus componentes con espacio para hasta 9 ventiladores de 120 mm\nAdmite una GPU de alta gama y le proporciona la mejor refrigeración\nListo para un radiador de hasta 360 mm delante, 360 mm arriba y 120 mm detrás\nCon espacio para SSD de 2,5”: HDD de 3 y 3,5”/SSD de 2,5” (convertibles): 3/2\nTapones antipolvo del panel de E/S incluidos\nMucho espacio para una gestión limpia de los cables\nSoporte de placa base: hasta ATX",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor ASUS VA27EHF LED 27\", Full HD, 100Hz, HDMI,",
+      "price": 27700,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/219-home_default/VA27EHF.jpg",
+      "availability": false,
+      "details": { "ref": "VA27EHF", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "SSD Kingston A400, 960GB, SATA III, 25'', 7mm",
+      "price": 8112,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/279-home_default/a400960gb.jpg",
+      "availability": false,
+      "details": { "ref": "", "stock": 14, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Procesador AMD Ryzen 5 5600G con Gráficos Radeon 7",
+      "price": 16500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/262-home_default/5600g.jpg",
+      "availability": false,
+      "details": {
+        "ref": "5600G",
+        "stock": 7,
+        "description": "Características\n\n\nPara jugadores, creadores y usuarios de PC que desean un rendimiento de clase entusiasta; sin la necesidad de una tarjeta gráfica discreta: no busque más, los procesadores de escritorio Ryzen™ 5000 G-Series: el procesador de escritorio con gráficos definitivo.\n\nPotencia tu próximo GG\nObtenga PC con los procesadores más avanzados del mundo para obtener altas velocidades de fotogramas por segundo y una experiencia inmersiva. Buen juego, por cierto.\n\nUltra-sensible\nObtenga una PC con el rendimiento que necesita con hasta 6 núcleos impulsados ​​por la tecnología de núcleo de procesador de 7 nm más avanzada del mundo. Dado que estos procesadores ofrecen un salto generacional en rendimiento con respecto a la generación anterior, los procesadores de escritorio AMD Ryzen™ 5000 G-Series con gráficos Radeon™ ofrecen una capacidad de respuesta ultrarrápida y un rendimiento multiproceso para las PC convencionales.\n\nLa tecnología más avanzada\nCuente con una PC que sea rápida, eficiente y confiable con la tecnología de núcleo de procesador de 7 nm más avanzada del mundo en el corazón de su sistema. Los procesadores de escritorio AMD Ryzen™ 5000 G-Series con gráficos Radeon™ están diseñados con tecnología de procesador “Zen 3” de proceso de 7 nm líder en la industria para un procesamiento más rápido y eficiente para hacer todo, más rápido que nunca, mientras funcionan de manera fresca y silenciosa.\n\nLos gráficos más rápidos del mundo en un procesador de escritorio\nSumérgete en cada detalle mientras editas fotos y videos, disfrutas de juegos HD increíblemente fluidos y transmites tus programas favoritos en vibrante 4K, HDR. Los procesadores de escritorio AMD Ryzen™ 5000 G-Series ofrecen el rendimiento gráfico más rápido disponible en un procesador de escritorio con gráficos AMD Radeon™ integrados. Disfrute de juegos fluidos en 1080P desde el primer momento, sin necesidad de tarjeta gráfica adicional; y un camino fácil hacia futuras actualizaciones, como tarjetas gráficas para juegos HD+, cuando estés listo.",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Memoria Ram Corsair Vengeance 32GB DDR5, 5200MHZ,",
+      "price": 11500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/433-home_default/CMK32GX5M1B5200C40.jpg",
+      "availability": false,
+      "details": {
+        "ref": "CMK32GX5M1B5200C40",
+        "stock": 1,
+        "description": "Características\n\n\nTipo de memoria interna: DDR5\nMemoria interna: 32GB\nDiseño de memoria: 2 x 16 GB\nVelocidad de memoria del reloj: 5200 MHz\nLatencia CAS: 40",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Audífonos Corsair VOID RGB ELITE Wireless 71,",
+      "price": 14500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/417-home_default/CA-9011201-NA.jpg",
+      "availability": false,
+      "details": {
+        "ref": "CA-9011201-NA",
+        "stock": 1,
+        "description": "Características\n\n\nFrecuencia de auricular: 20 - 30000 Hz\nTecnología de conectividad: Inalámbrico\nColor del producto: Carbono",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Fuente de Poder Corsair RM850e 80 PLUS Gold, 24-pin",
+      "price": 13999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/308-home_default/RM850e.jpg",
+      "availability": false,
+      "details": { "ref": "RM850e", "stock": 2, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Case ASUS ROG Hyperion, GR701, con Ventana ARGB, Tower,",
+      "price": 59999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/287-home_default/GR701.jpg",
+      "availability": false,
+      "details": {
+        "ref": "GR701",
+        "stock": 1,
+        "description": "Case ASUS ROG Hyperion GR701 con Ventana ARGB, Tower, EATX/ATX",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor ASUS Pro Art PA247CV LED 238\", Full HD,",
+      "price": 38915,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/221-home_default/PA247CV.jpg",
+      "availability": false,
+      "details": {
+        "ref": "PA247CV",
+        "stock": 7,
+        "description": "Monitor ASUS Pro Art PA247CV LED 23.8\", Full HD, 75Hz, HDMI, Bocinas Integradas (2x 4W), Negro/Plata",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador Intel Core i7-12700, S-1700, 210GHz,",
+      "price": 40969,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/259-home_default/i7-12700.jpg",
+      "availability": false,
+      "details": {
+        "ref": "i7-12700",
+        "stock": 1,
+        "description": "Procesador Intel Core i7-12700, S-1700, 2.10GHz, 12-Core, 25MB Smart Cache (12va. Generación - Alder Lake)",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video ASUS NVIDIA TUF Gaming GeForce RTX",
+      "price": 2.35031,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/236-home_default/TUF-RTX4090-O24G-OG-GAMING.jpg",
+      "availability": false,
+      "details": {
+        "ref": "TUF-RTX4090-O24G-OG-GAMING",
+        "stock": 1,
+        "description": "",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "SSD Kingston A400, 240GB, SATA III, 25'', 7mm",
+      "price": 4004,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/277-home_default/240gba400.jpg",
+      "availability": false,
+      "details": { "ref": "a400240gb", "stock": 7, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Procesador AMD Ryzen 5 8500G con Gráficos Radeon",
+      "price": 22900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/560-home_default/8500g.jpg",
+      "availability": false,
+      "details": { "ref": "8500G", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Memoria Ram Corsair Vengeance 32GB DDR5, 5600MHZ,",
+      "price": 13000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/432-home_default/CMK32GX5M1B5600C40.jpg",
+      "availability": false,
+      "details": {
+        "ref": "CMK32GX5M1B5600C40",
+        "stock": 2,
+        "description": "Características\n\n\nTipo de memoria interna: DDR5\nMemoria interna: 32GB\nDiseño de memoria: 2 x 16 GB\nVelocidad de memoria del reloj: 5600 MHz\nLatencia CAS: 40",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Audífonos Logitech G435 para PC/PS4/PS5,",
+      "price": 7999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/418-home_default/981-001049.jpg",
+      "availability": false,
+      "details": {
+        "ref": "981-001049",
+        "stock": 1,
+        "description": "Características\n\n\nFrecuencia de auricular: 20 - 20000 Hz\nTecnología de conectividad: Inalámbrico\nColor del producto: Negro, Amarillo",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "UPS APC BVX900L-LM Línea interactiva, 480W, 900VA, 6",
+      "price": 12900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/403-home_default/BVX900L-LM.jpg",
+      "availability": false,
+      "details": {
+        "ref": "BVX900L-LM",
+        "stock": 1,
+        "description": "Características\n\n\nCapacidad de potencia de salida (VA): 0.9 kVA\nPotencia de salida: 480 W\nÍndice de aumento de energía: 350 J\nCantidad de salidas AC: 6",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "SSD NVMe ADATA Legend 900 de 2 TB 7000 MB/s",
+      "price": 20900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/392-home_default/2tbadata.jpg",
+      "availability": false,
+      "details": {
+        "ref": "Legend 900",
+        "stock": 1,
+        "description": "Interfaz de transmisión PCIe Gen4 x4\nVelocidad de lectura/escritura de hasta 7000/5400 MB/s\nFunciona con PS5, velocidad de lectura de hasta 6200 MB/s para PS5",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor ASUS ProArt PA278QV LED IPS 27\", Quad HD,",
+      "price": 50311,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/338-home_default/PA278QV.jpg",
+      "availability": false,
+      "details": {
+        "ref": "PA278QV",
+        "stock": 1,
+        "description": "Características\n\n\n-Diagonal de la pantalla: 68,6 cm (27\")\nNvidia G-Sync: \nAMD FreeSync: \nVelocidad de actualización: 75 Hz\nHDMI: 1\nDisplayPort: 1",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Asus vidrio templado ASUS TUF Gaming GT301 ATX",
+      "price": 15299,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/292-home_default/gt301.jpg",
+      "availability": false,
+      "details": { "ref": "GT301", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Tarjeta de Video ASUS NVIDIA ROG Strix GeForce RTX",
+      "price": 2.04946,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/238-home_default/rtx4080strix.jpg",
+      "availability": false,
+      "details": { "ref": "rtx408016gbasusstrix", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Procesador Intel Core i9-13900K, S-1700, 24-Core,",
+      "price": 77522,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/253-home_default/pci913900k4090.jpg",
+      "availability": false,
+      "details": { "ref": "i9-13900k", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "MEMORIA RAM KINGSTON FURY 1X16GB DDR5 5200MHZ",
+      "price": 6200,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/618-home_default/fury16gbddr5.jpg",
+      "availability": false,
+      "details": {
+        "ref": "KF552C40BB-16",
+        "stock": 2,
+        "description": "MEMORIA RAM KINGSTON FURY 1X16GB DDR5 5200MHZ KF552C40BB-16 CL40",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador AMD Ryzen 7 8700G con Gráficos Radeon",
+      "price": 39900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/561-home_default/8700G.jpg",
+      "availability": false,
+      "details": { "ref": "8700G", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "SSD Western Digital WD Green, 1TB, SATA III, 25\", 7mm",
+      "price": 7990,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/492-home_default/WDS100T3G0A.jpg",
+      "availability": false,
+      "details": {
+        "ref": "WDS100T3G0A",
+        "stock": 1,
+        "description": "Características\n\n\nCapacidad: 1000 GB\nInterface: Serial ATA III\nVelocidad de lectura: 545 MB/s",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "UPS BX1600M-LM  Línea Interactiva, 1600VA/960W, 6",
+      "price": 19999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/404-home_default/BX1600M-LM.jpg",
+      "availability": false,
+      "details": {
+        "ref": "BX1600M-LM",
+        "stock": 1,
+        "description": "UPS BX1600M-LM  Línea Interactiva, 1600VA/960W, 6 Salidas",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Fuente de Poder Corsair CX650 80 PLUS Bronze, 20+4",
+      "price": 7000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/389-home_default/cx650.jpg",
+      "availability": false,
+      "details": {
+        "ref": "CX650",
+        "stock": 3,
+        "description": "Especificaciones\n\n\n\n\n\nPuertos e Interfaces\n\n\nNumber of EPS connectors\n1\n\n\nNúmero de conectores de energía SATA\n3\n\n\nAlimentador de energía para tarjeta madre\n24-pin ATX\n\n\n\n\n\n\nPeso y dimensiones\n\n\nAltura\n86 mm\n\n\nAncho\n125 mm\n\n\n\n\n\n\nControl de energía\n\n\nCorriente máxima de salida (+3.3V)\n24 A\n\n\nPotencia combinada (-12V)\n3.6 W\n\n\nCorriente máxima de salida (+5Vsb)\n3 A\n\n\nPotencia combinada (+5 V)\n130 W\n\n\nCorriente máxima de salida (+5V)\n20 A\n\n\nCorriente máxima de salida (-12V)\n0.3 A\n\n\nFrecuencia de entrada AC\n47 - 63 Hz\n\n\nPotencia combinada (+5 VSB)\n15 W\n\n\nPotencia combinada (+12 V)\n624 W\n\n\nPotencia total\n650 W\n\n\nCorriente de entrada\n10 - 5 A\n\n\nPotencia combinada (3,3 V)\n130 W\n\n\nPotencia nominal\n650 W\n\n\nCorriente máxima de salida (+12V)\n52 A\n\n\nVoltaje de entrada AC\n100 - 240 V\n\n\n\n\n\n\nDiseño\n\n\nColor del producto\nNegro\n\n\n\n\n\n\nDesempeño\n\n\nTiempo medio entre fallos\n100000 h\n\n\nPower supply unit (PSU) form factor\nATX\n\n\nUtilizar con\nPC\n\n\nFactor de forma\nATX",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor LG 27QN600-B 27\", Quad HD, FreeSync, HDMI,",
+      "price": 40044,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/339-home_default/27QN600.jpg",
+      "availability": false,
+      "details": {
+        "ref": "27QN600",
+        "stock": 1,
+        "description": "Características\n\n\n-Diagonal de la pantalla: 68,6 cm (27\")\nTipo HD: Quad HD\nNvidia G-Sync: \nAMD FreeSync: \nHDMI: 2\nDisplayPort: 1",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Asus vidrio templado ASUS TUF Gaming GT501 / 3",
+      "price": 23513,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/299-home_default/GT501.jpg",
+      "availability": false,
+      "details": { "ref": "GT301", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Tarjeta de Video ASUS NVIDIA Phoenix GeForce RTX",
+      "price": 29674,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/240-home_default/RTX30508GB.jpg",
+      "availability": false,
+      "details": {
+        "ref": "RTX30508GBPhoenix",
+        "stock": 1,
+        "description": "Tarjeta de Video ASUS NVIDIA Phoenix GeForce RTX 3050 8G, 8GB 128-bit GDDR6, PCI Express 4.0",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador Intel Core i3-13100 Intel UHD Graphics",
+      "price": 18379,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/257-home_default/i313100.jpg",
+      "availability": false,
+      "details": { "ref": "i3-13100", "stock": 7, "description": "i3-13100", "warranty": "" }
+    },
+    {
+      "title": "Fuente de Poder ASUS TUF Gaming 850W Gold 80 PLUS",
+      "price": 16900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/562-home_default/TUF-GAMING-850G.jpg",
+      "availability": false,
+      "details": {
+        "ref": "TUF-GAMING-850G",
+        "stock": 1,
+        "description": "Características\n\n\nPotencia nominal: 850 W\nCertificación 80 PLUS: 80 PLUS Gold\nDiámetro de ventilador: 135 mm\nFactor de forma: ATX\nAlimentador de energía: 24-pin ATX\nNúmero de conectores SATA: 5\nTipo de cableado: Modular",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "SSD Western Digital WD Blue SN580 NVMe, 500GB, PCI",
+      "price": 5900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/491-home_default/WDS500G3B0E.jpg",
+      "availability": false,
+      "details": {
+        "ref": "WDS500G3B0E",
+        "stock": 1,
+        "description": "Características\n\n\nCapacidad: 500 GB\nInterface: PCI Express 4.0\nVelocidad de lectura: 4000 MB/s\nVelocidad de escritura: 3600 MB/s",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "UPS APC BX2000M-LM Intercativo, 1200W - 2000VA 6 tomas",
+      "price": 21000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/405-home_default/BX2000M-LM.jpg",
+      "availability": false,
+      "details": {
+        "ref": "BX2000M-LM",
+        "stock": 1,
+        "description": "UPS APC BX2000M-LM Intercativo, 1200W - 2000VA 6 tomas",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor Gamer ASUS ROG Swift PG27AQN LED 27\", Quad",
+      "price": 1.40567,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/341-home_default/PG27AQN.jpg",
+      "availability": false,
+      "details": {
+        "ref": "PG27AQN",
+        "stock": 1,
+        "description": "Características\n\n\n-Diagonal de la pantalla: 68,6 cm (27\")\nTipo HD: Wide Quad HD\nNvidia G-Sync: \nAMD FreeSync: \nVelocidad de actualización: 360 Hz\nHDMI: 3\nDisplayPort: 1",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Asus vidrio templado Corsair iCUE 7000X RGB -",
+      "price": 35835,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/300-home_default/7000x.jpg",
+      "availability": false,
+      "details": { "ref": "7000x", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Procesador Intel Core i7-13700 Intel , S-1700,",
+      "price": 51237,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/255-home_default/i713700.jpg",
+      "availability": false,
+      "details": { "ref": "i7-13700", "stock": 7, "description": "i7-13700", "warranty": "" }
+    },
+    {
+      "title": "Mainboard ASUS Micro ATX PRIME B550M-A AC, S-AM4,",
+      "price": 14170,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/270-home_default/b550maac.jpg",
+      "availability": false,
+      "details": {
+        "ref": "b550m-a",
+        "stock": 7,
+        "description": "Mainboard ASUS Micro ATX PRIME B550M-A AC, S-AM4, DRR4, para AMD",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "UPS CDP Modelo R-SMART 1010 1000VA 500W 10 TOMAS",
+      "price": 8900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/568-home_default/rsmart1010.jpg",
+      "availability": false,
+      "details": {
+        "ref": "R-SMART1010",
+        "stock": 1,
+        "description": "UPS CDP Modelo R-SMART 1010 1000VA 500W 10 TOMAS",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Fuente de Poder ASUS Prime 850Watts  Modelo AP-850G",
+      "price": 14999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/564-home_default/AP-850G.jpg",
+      "availability": false,
+      "details": { "ref": "AP-850G", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "SSD Kingston FURY Renegade NVMe, 2TB, PCI Express",
+      "price": 26900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/490-home_default/SFYRDK2000G.jpg",
+      "availability": false,
+      "details": {
+        "ref": "SFYRDK/2000G",
+        "stock": 1,
+        "description": "Características\n\n\nCapacidad: 2000 GB\nInterface: PCI Express 4.0",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case GAMER 3 FAN USB 20 sin FUENTE DE PODER",
+      "price": 5133,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/348-home_default/CASEGAMER.jpg",
+      "availability": false,
+      "details": {
+        "ref": "CASETERRAX3FAN",
+        "stock": 1,
+        "description": "Case GAMER 3 FAN USB 2.0 sin FUENTE DE PODER",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor Gamer ASUS VG27AQA1A LED 27\", Quad HD,",
+      "price": 42500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/342-home_default/VG27AQL1A.jpg",
+      "availability": false,
+      "details": {
+        "ref": "VG27AQL1A",
+        "stock": 1,
+        "description": "Características\n\n\n-Diagonal de la pantalla: 68,6 cm (27\")\nTipo HD: Quad HD\nNvidia G-Sync: \nAMD FreeSync: \nVelocidad de actualización: 170 Hz\nHDMI: 2\nDisplayPort: 1",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video MSI NVIDIA RTX 3060 Ventus 3 FAN,",
+      "price": 43022,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/243-home_default/RTX306012GBMSI.jpg",
+      "availability": false,
+      "details": {
+        "ref": "GEFORCE RTX 3060 VENTUS 3X 12G OC",
+        "stock": 2,
+        "description": "GEFORCE RTX 3060 VENTUS 3X 12G OC",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Impresora  Multifuncional Epson L3250, Color,",
+      "price": 24500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/495-home_default/l3250.jpg",
+      "availability": false,
+      "details": {
+        "ref": "l3250",
+        "stock": 2,
+        "description": "Multifuncional Epson EcoTank L3250, Color, Inyección, Inalámbrico, Print/Scan/Copy",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador Intel Core i5-12400, S-1700, 250GHz,",
+      "price": 19900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/258-home_default/i512400.jpg",
+      "availability": false,
+      "details": {
+        "ref": "i5-12400",
+        "stock": 0,
+        "description": "Procesador Intel Core i5-12400, S-1700, 2.50GHz, 6-Core, 12va. Generación",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard ASUS A520M-K AM4 DDR4 AMD",
+      "price": 11192,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/268-home_default/a520mk.jpg",
+      "availability": false,
+      "details": { "ref": "a520m_k", "stock": 7, "description": "a520m-k", "warranty": "" }
+    },
+    {
+      "title": "Regulador CDP con Supresor de Picos AVR 604, 300W,",
+      "price": 2000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/589-home_default/avr604.jpg",
+      "availability": false,
+      "details": {
+        "ref": "AVR604",
+        "stock": 1,
+        "description": "Regulador CDP con Supresor de Picos AVR 604, 300W, 600VA, 4 Contactos, 4x USB",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "SSD Kingston FURY Renegade NVMe, 2TB, PCI Express",
+      "price": 25500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/489-home_default/SFYRD2000G.jpg",
+      "availability": false,
+      "details": {
+        "ref": "SFYRD/2000G",
+        "stock": 1,
+        "description": "Características\n\n\nCapacidad: 2000 GB\nInterface: PCI Express 4.0\nVelocidad de lectura: 7300 MB/s\nVelocidad de escritura: 7000 MB/s",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Antec AX90 con Ventana , 3 Ventiladores",
+      "price": 8900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/488-home_default/ax90.jpg",
+      "availability": false,
+      "details": {
+        "ref": "CASEAX90ANTEC",
+        "stock": 2,
+        "description": "Factor de forma: Midi-Tower\nCristal Templado: \nTarjetas madre soportadas: ATX, ITX, Micro ATX\nCantidad de puertos USB 2.0: 2\nFuente de alimentación incluida: \nDisco duro soportado: 2.5''\nVentiladores frontales instalados: 3x 120 mm\nVentiladores traseros instalados: 1x 120 mm",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor Quasad 238\" FULLHD 165hz  1MS Modelo Qm-g24",
+      "price": 26594,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/369-home_default/Qm-g24.jpg",
+      "availability": false,
+      "details": {
+        "ref": "Qm-g24",
+        "stock": 1,
+        "description": "»Tamaño de pantalla: 24″» Tipo de panel: IPS»Tiempo de respuesta: 1ms»Frecuencia de actualización: 165Hz»Resolución: 1920×1080»Entrada de video: 2X HDMI, 1X Display Port, Audio 3.5mm»Soporte Vesa: Sí",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video ASUS NVIDIA Dual GeForce RTX 4060",
+      "price": 48900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/331-home_default/rtx40609gb.jpg",
+      "availability": false,
+      "details": {
+        "ref": "rtx40608gb",
+        "stock": 1,
+        "description": "Características\n\n\nFrecuencia boost: 2460 MHz\nNúcleos CUDA: 3072\nCantidad de puertos HDMI: 1\nCantidad de DisplayPorts: 3",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador Intel Core i5-13400 Intel UHD Graphics 730",
+      "price": 21500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/256-home_default/i513400.jpg",
+      "availability": false,
+      "details": { "ref": "i513400", "stock": 7, "description": "i5-13400", "warranty": "" }
+    },
+    {
+      "title": "SSD Kingston NV3 NVMe, 500GB, PCI 40,",
+      "price": 5900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/578-home_default/NV3500GB.jpg",
+      "availability": false,
+      "details": {
+        "ref": "nv2500gb",
+        "stock": 7,
+        "description": "SSD Kingston NV3 NVMe, 500GB, PCI 4.0, 5,000/3,000MB/seg",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador Intel Core i9-14900, S-1700, 20GHz,",
+      "price": 72500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/565-home_default/i9-14900.jpg",
+      "availability": false,
+      "details": { "ref": "i9-14900", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Case Antec AX20 ELITE  3 fan RGB",
+      "price": 4500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/487-home_default/ax20elite.jpg",
+      "availability": false,
+      "details": {
+        "ref": "AX20ELITE",
+        "stock": 1,
+        "description": "ESPECIFICACIONES especificación principal Dimensiones 358 x 207 x 451 mm (DWH) Factor de forma Torre media Materiales Acero+Plástico Soporte de placa base ATX, MicroATX, ITX Acceso frontal y controles Encendido, reinicio, 2 x USB 2.0, 1 XUSB 3.0, MIC / HD-AUDIO Panel lateral Vidrio templado",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor Gamer ASUS VG279QL1A LED 27\", Full HD,",
+      "price": 43900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/367-home_default/VG279QL1A.jpg",
+      "availability": false,
+      "details": { "ref": "VG279QL1A", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Mainbaord ASUS Micro-ATX PRIME B760M-A , S-1700,",
+      "price": 16326,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/267-home_default/mainbaord-asus-micro-atx-prime-b760m-a-s-1700-intel-b760-hdmi-128gb-ddr5.jpg",
+      "availability": false,
+      "details": {
+        "ref": "",
+        "stock": 7,
+        "description": "Características\n\n\nFamilia de procesador: Intel\nCircuito integrado de tarjeta madre: Intel B760\nSocket de procesador: LGA 1700\nCircuito integrado: Intel B760\nMemoria interna, máxima: 128 GB\nTipo de memoria: DDR5-SDRAM",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "UPS No Break Forza Power Technologies FX-2200LCD,",
+      "price": 26500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/591-home_default/FX2200LCD.jpg",
+      "availability": false,
+      "details": {
+        "ref": "FX-2200LCD",
+        "stock": 1,
+        "description": "UPS No Break Forza Power Technologies FX-2200LCD, 1200W, 2200VA, Entrada 110-120V, Salida 110-120V",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "SSD Kingston NV3 NVMe, 1TB, PCIe 40 6,000/4,000MB/seg",
+      "price": 7500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/577-home_default/N321TB.jpg",
+      "availability": false,
+      "details": {
+        "ref": "nv21tb",
+        "stock": 15,
+        "description": "SSD Kingston NV3 NVMe, 1TB, PCIe 4.0 6,000/4,000MB/seg",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Antec AX61 Elite con Ventana Midi-Tower - 4 FAN",
+      "price": 5647,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/486-home_default/AX61ELITE.jpg",
+      "availability": false,
+      "details": {
+        "ref": "AX61ELITE",
+        "stock": 1,
+        "description": "aracterísticas\n\n\nFactor de forma: Midi-Tower\nTarjetas madre soportadas: ITX, Micro ATX\nCantidad de puertos USB 2.0: 2\nFuente de alimentación incluida: \nDisco duro soportado: 2.5''\nVentiladores frontales instalados: 3x 120 mm\nVentiladores traseros instalados: 1x 120 mm",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard ASUS ATX TUF GAMING B650-PLUS WIFI, AM5",
+      "price": 29674,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/272-home_default/b650pluswifi.jpg",
+      "availability": false,
+      "details": { "ref": "B650PLUSWIFI", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "UPS No Break APC BVX900L-LM Línea interactiva, 480W,",
+      "price": 11900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/592-home_default/BVX900L-LM.jpg",
+      "availability": false,
+      "details": {
+        "ref": "BVX900L-LM",
+        "stock": 1,
+        "description": "UPS No Break APC BVX900L-LM Línea interactiva, 480W, 900VA, Entrada 89-145V, 6 Contactos",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "SSD Kingston NV3 NVMe, 2TB,  PCI 40 6,000/5,000MB/seg",
+      "price": 15500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/576-home_default/NV32TB.jpg",
+      "availability": false,
+      "details": {
+        "ref": "NV22TB",
+        "stock": 7,
+        "description": "SSD Kingston NV3 NVMe, 2TB, PCI 4.0 6,000/5,000MB/seg>",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor Gamer Curvo Gigabyte M32QC LED 315\", Quad",
+      "price": 62900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/498-home_default/M32QC.jpg",
+      "availability": false,
+      "details": {
+        "ref": "M32QC",
+        "stock": 1,
+        "description": "Características\n\n\n-Diagonal de la pantalla: 80 cm (31.5\")\nTipo HD: Quad HD\nAMD FreeSync: \nVelocidad de actualización: 165 Hz\nHDMI: 2\nDisplayPort: 1",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Antec NX270 TG con Ventana, Midi-Tower,",
+      "price": 4900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/485-home_default/NX270GT.jpg",
+      "availability": false,
+      "details": {
+        "ref": "NX270GT",
+        "stock": 1,
+        "description": "Características\n\n\nFactor de forma: Midi-Tower\nCristal Templado: \nTarjetas madre soportadas: ATX, ITX, Micro ATX\nCantidad de puertos USB 2.0: 1\nFuente de alimentación incluida: \nDisco duro soportado: 2.5''\nVentiladores frontales instalados: 2x 120 mm\nVentiladores traseros instalados:",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard ASUS Micro-ATX PRIME B650M-A II-CSM, AM5,",
+      "price": 23513,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/271-home_default/B650MAIICSM.jpg",
+      "availability": false,
+      "details": {
+        "ref": "B650M-A II-CSM",
+        "stock": 2,
+        "description": "Mainboard ASUS Micro-ATX PRIME B650M-A II-CSM, AM5, AMD B650, HDMI, 128GB DDR5",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "SSD KINGSTON FURY RENEGADE 4TB M2 NVME 2280 PCI-E",
+      "price": 31000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/604-home_default/4TBSSDRENEGADE.jpg",
+      "availability": false,
+      "details": {
+        "ref": "RENEGADE4TB",
+        "stock": 1,
+        "description": "SSD KINGSTON FURY RENEGADE 4TB M.2 NVME 2280 PCI-E 4.0 - 7300MB/S - 7000MB/S (SFYRD/4000G)",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "UPS FORZA BT-1001 - 1000VA/500WATTS - 6 TOMAS - 120V",
+      "price": 8900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/593-home_default/BT-1001.jpg",
+      "availability": false,
+      "details": {
+        "ref": "BT-1001",
+        "stock": 1,
+        "description": "UPS FORZA BT-1001 - 1000VA/500WATTS - 6 TOMAS - 120V",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor Asus 27\" 180Hz VG279QL3A TUF Gaming IPS",
+      "price": 39999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/497-home_default/VG279QL3A.jpg",
+      "availability": false,
+      "details": { "ref": "VG279QL3A", "stock": 1, "description": "VG279QL3A", "warranty": "" }
+    },
+    {
+      "title": "Tarjeta de Video Gigabyte RTX 4070 SUPER GAMING OC",
+      "price": 85500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/409-home_default/GV-N407SGAMINGOC12GD.jpg",
+      "availability": false,
+      "details": {
+        "ref": "GV-N407SGAMING OC-12GD",
+        "stock": 1,
+        "description": "Características\n\n\nCantidad de puertos HDMI: 1\nCantidad de DisplayPorts: 3",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Antec NX290 con Ventana, Midi-Tower,",
+      "price": 6058,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/484-home_default/NX290.jpg",
+      "availability": false,
+      "details": {
+        "ref": "NX290",
+        "stock": 1,
+        "description": "Características\n\n\nFactor de forma: Midi-Tower\nCristal Templado: \nTarjetas madre soportadas: ATX, EATX, ITX, Micro ATX\nCantidad de puertos USB 2.0: 2\nFuente de alimentación incluida: \nDisco duro soportado: 2.5''\nVentiladores frontales instalados: 3x 120 mm\nVentiladores traseros instalados:",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainbaord ASUS Micro-ATX H610M-K D4, S-1700, Intel",
+      "price": 11294,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/264-home_default/h610mkd4.jpg",
+      "availability": false,
+      "details": {
+        "ref": "h610m-k D4",
+        "stock": 2,
+        "description": "Mainbaord ASUS Micro-ATX H610M-K D4, S-1700, Intel H610, HDMI, 64GB DDR4 para Intel",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "POWER STATION BLUETTI AC2A - 300 WATTS - 204WH",
+      "price": 29900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/594-home_default/AC2A.jpg",
+      "availability": false,
+      "details": {
+        "ref": "AC2A",
+        "stock": 1,
+        "description": "POWER STATION BLUETTI AC2A - 300 WATTS - 204WH",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor LG UltraGear 27GR75Q-B 27\" QHD IPS 165Hz 1ms",
+      "price": 41500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/546-home_default/27GR75Q.jpg",
+      "availability": false,
+      "details": {
+        "ref": "27GR75Q",
+        "stock": 1,
+        "description": "Especificaciones\n\n\n\n\n\nSincronización adaptativa\nAMD FreeSync™ Premium\n\n\nNVIDIA G-Sync™\nSí\n\n\nSincronización de acción dinámica®\nSí\n\n\nEfecto HDR\nSí\n\n\nAhorro de energía inteligente\nSí\n\n\nHDR (alto rango dinámico)\nSí\n\n\npunto de mira\nSí\n\n\nCon soporte (ancho x alto x profundidad)\n24,2\" x 22,4\" x 11,5\" (arriba), 24,2\" x 18,1\" x 11,5\" (abajo)\n\n\nSin soporte (An. x Al. x Pr.)\n24,2\" x 14,6\" x 2\"\n\n\nPuerto de visualización\nSí\n\n\nhdmi\nSí\n\n\nSalida de auriculares\nSí\n\n\nRelación de aspecto\n16:9\n\n\nBrillo\n(Mín.) 240 cd/m² (Típ.) 300 cd/m²\n\n\nProfundidad de color (cantidad de colores)\n167\n\n\nGama de colores (típ.)\nsRGB 99% (CIE1931)\n\n\nFrecuencia de actualización\n165 Hz\n\n\nTipo de visualización\nIPS\n\n\nTiempo de respuesta (GTG)\n1 ms (GtG a mayor velocidad)\n\n\nResolución\n2560 x 1440\n\n\nTamaño de pantalla\n27\"\n\n\nAjustes de la posición de la pantalla\nInclinación/Altura/Pivote\n\n\nConsumo de energía (máx.)\n48W\n\n\nTipo\nAlimentación externa (adaptador)",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video Gigabyte RTX 4070 Ti EAGLE OC 12G,",
+      "price": 1.019,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/475-home_default/GV-N407TEAGLEOC-12GD.jpg",
+      "availability": false,
+      "details": {
+        "ref": "GV-N407TEAGLE OC-12GD",
+        "stock": 1,
+        "description": "Características\n\n\nFrecuencia del procesador: 2625 MHz\nFrecuencia boost: 2610 MHz\nNúcleos CUDA: 7680\nCantidad de puertos HDMI: 1\nCantidad de DisplayPorts: 3",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Antec NX292 con Ventana, Midi-Tower WHITE - 4 FAN",
+      "price": 6500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/483-home_default/NX292WHITE.jpg",
+      "availability": false,
+      "details": {
+        "ref": "NX292 WHITE",
+        "stock": 1,
+        "description": "Características\n\n\nFactor de forma: Midi-Tower\nCristal Templado: \nTarjetas madre soportadas: ATX, EATX, ITX, Micro ATX\nCantidad de puertos USB 2.0: 2\nFuente de alimentación incluida: \nDisco duro soportado: 2.5''\nVentiladores frontales instalados: 3x 120 mm\nVentiladores traseros instalados: 1x 120 mm",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mini UPS SKE POE-830P-LFP - 20000 MAH - 5V/9V/12V -",
+      "price": 5500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/605-home_default/MiniUPSSKEPOE-830P-LFP.jpg",
+      "availability": false,
+      "details": {
+        "ref": "UPSSKEPOE-830P-LFP",
+        "stock": 1,
+        "description": "Mini UPS SKE POE-830P-LFP - 20.000 MAH - 5V/9V/12V - 1.5A - TYPE-C 18W - BLACK",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor ASUS ROG Strix 27\" QHD 2560x1440  180HZ,",
+      "price": 51900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/569-home_default/XG27ACS.jpg",
+      "availability": false,
+      "details": {
+        "ref": "XG27ACS",
+        "stock": 1,
+        "description": "Monitor ASUS ROG Strix 27\" QHD 2560x1440  180HZ, 1MS, Modelo XG27ACS",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Corsair 7000D Airflow con Ventana, Full Tower,",
+      "price": 28500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/482-home_default/7000D.jpg",
+      "availability": false,
+      "details": {
+        "ref": "7000D",
+        "stock": 1,
+        "description": "Características\n\n\nFactor de forma: Full Tower\nCristal Templado: \nTarjetas madre soportadas: ATX, Micro ATX, Mini-ITX\nCantidad de puertos tipo C USB 3.1 (3.1 Gen 2): 1\nFuente de alimentación incluida: \nDisco duro soportado: 2.5\"\nVentiladores frontales instalados: 2x 140 mm\nVentiladores traseros instalados: 1x 140 mm",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video Gigabyte RTX 4070 Ti SUPER GAMING",
+      "price": 1.149,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/473-home_default/GV-N407TSGAMINGOC-16GD.jpg",
+      "availability": false,
+      "details": {
+        "ref": "GV-N407TSGAMING OC-16GD",
+        "stock": 1,
+        "description": "Características\n\n\nCantidad de puertos HDMI: 1\nCantidad de DisplayPorts: 3",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainbaord ASUS ATX TUF GAMING Z790-PLUS WIFI,",
+      "price": 33371,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/266-home_default/z790pluswifiddr5.jpg",
+      "availability": false,
+      "details": {
+        "ref": "Z790-PLUS WIFI",
+        "stock": 2,
+        "description": "Z790-PLUS WIFI",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "UPS Interactivo Hikvision DS-UPS3000-X 3000VA -",
+      "price": 28000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/596-home_default/DS-UPS3000-X.jpg",
+      "availability": false,
+      "details": {
+        "ref": "DS-UPS3000-X",
+        "stock": 1,
+        "description": "UPS Interactivo Hikvision DS-UPS3000-X 3000VA - 1800W - 120V / 6 TOMAS - Batería 12V 9Ah",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor Curvo ASUS ROG Strix 32\" QHD 2560x1440",
+      "price": 58900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/570-home_default/XG32WCS.jpg",
+      "availability": false,
+      "details": {
+        "ref": "XG32WCS",
+        "stock": 1,
+        "description": "Monitor Curvo ASUS ROG Strix 32\" QHD 2560x1440 180HZ, 1MS, Modelo XG32WCS",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Corsair iCUE 5000T RGB, USB 30, sin Fuente,",
+      "price": 39900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/479-home_default/5000T.jpg",
+      "availability": false,
+      "details": {
+        "ref": "5000T",
+        "stock": 1,
+        "description": "Características\n\n\nFactor de forma: Midi-Tower\nCristal Templado: \nTarjetas madre soportadas: ATX\nCantidad de puertos tipo C USB 3.1 (3.1 Gen 2): 1\nFuente de alimentación incluida: \nDisco duro soportado: 2.5\"\nVentiladores frontales instalados: 3x 120 mm\nVentiladores traseros instalados:",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard ASUS ATX ROG Strix Z790-H GAMING WIFI,",
+      "price": 38915,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/330-home_default/z790-h.jpg",
+      "availability": false,
+      "details": {
+        "ref": "Z790-H",
+        "stock": 1,
+        "description": "Mainboard ASUS ATX ROG Strix Z790-H GAMING WIFI, S-1700, Intel Z790, HDMI, 128GB DDR5 para Intel",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor GAMING ASUS VZ27EHF Eye Care, Ultra Slim,",
+      "price": 26500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/607-home_default/VZ27EHF.jpg",
+      "availability": false,
+      "details": {
+        "ref": "VZ27EHF",
+        "stock": 3,
+        "description": "Monitor GAMING ASUS VZ27EHF Eye Care, Ultra Slim, 27\" IPS, FHD, 100Hz, 1ms",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "POWER STATION FORZA TITAN 700W FPP-T700 - BATERÍA LMFP",
+      "price": 58000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/597-home_default/FPP-T700.jpg",
+      "availability": false,
+      "details": {
+        "ref": "FPP-T700",
+        "stock": 1,
+        "description": "POWER STATION FORZA TITAN 700W FPP-T700 - BATERÍA LMFP",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Corsair iCUE 5000X con Ventana RGB",
+      "price": 19900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/477-home_default/5000xblack.jpg",
+      "availability": false,
+      "details": {
+        "ref": "5000X",
+        "stock": 1,
+        "description": "Características\n\n\nFactor de forma: Midi-Tower\nTarjetas madre soportadas: ATX, EATX, Micro ATX, Micro-ITX\nFuente de alimentación incluida: \nDisco duro soportado: 2.5\"\nVentiladores frontales instalados: 3x 120 mm\nVentiladores traseros instalados:",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video Gigabyte RTX 4080 SUPER WINDFORCE",
+      "price": 1.499,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/471-home_default/GV-N408SWF3V2-16GD.jpg",
+      "availability": false,
+      "details": {
+        "ref": "GV-N408SWF3V2-16GD",
+        "stock": 1,
+        "description": "Características\n\n\nCantidad de puertos HDMI: 1\nCantidad de DisplayPorts: 3",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainbaord  ASUS Micro-ATX PRIME H510M-K R20,",
+      "price": 9240,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/459-home_default/H510MK.jpg",
+      "availability": false,
+      "details": {
+        "ref": "H510M-K",
+        "stock": 1,
+        "description": "Características\n\n\nFamilia de procesador: Intel\nCircuito integrado de tarjeta madre: Intel H470\nSocket de procesador: LGA 1200\nCircuito integrado: Intel H470\nMemoria interna, máxima: 64 GB\nTipo de memoria: DDR4-SDRAM",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "MONITOR ENV 1ESM1695 - 215\" FULL HD 1920x1080 - VA",
+      "price": 11900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/614-home_default/1ESM1695.jpg",
+      "availability": false,
+      "details": {
+        "ref": "1ESM1695",
+        "stock": 3,
+        "description": "UN AÑO DE GARANTÍA",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mini UPS OLAX POE-D6 20000 mAh",
+      "price": 5900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/598-home_default/OLAXPOE-D6.jpg",
+      "availability": false,
+      "details": {
+        "ref": "OLAX POE-D6",
+        "stock": 1,
+        "description": "Mini UPS OLAX POE-D6 20.000 mAh",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Case Antec Constellation C8 con Ventana, Full Tower,",
+      "price": 13900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/584-home_default/C8.jpg",
+      "availability": false,
+      "details": {
+        "ref": "C8",
+        "stock": 1,
+        "description": "Case Antec Constellation C8 con Ventana, Full Tower, ATX/EATX/ITX/Micro ATX, USB 3.0, sin Fuente NO FAN",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video Gigabyte RTX 4090 WINDFORCE V2 24G,",
+      "price": 2.499,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/469-home_default/GV-N4090WF3V2-24GD.jpg",
+      "availability": false,
+      "details": {
+        "ref": "GV-N4090WF3V2-24GD",
+        "stock": 1,
+        "description": "Características\n\n\nFrecuencia boost: 2520 MHz\nNúcleos CUDA: 16384\nCantidad de puertos HDMI: 1\nCantidad de DisplayPorts: 3",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard Asus A620M-K DDR5 AM5 - AMD",
+      "price": 12500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/460-home_default/A620M-KAM5.jpg",
+      "availability": false,
+      "details": { "ref": "A620M-K", "stock": 1, "description": "A620M-K", "warranty": "" }
+    },
+    {
+      "title": "Monitor Gamer ASUS VY279HGR LCD 27\", 1920x1080 Full",
+      "price": 25500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/626-home_default/VY279HGR.jpg",
+      "availability": false,
+      "details": {
+        "ref": "VY279HGR",
+        "stock": 1,
+        "description": "Características\n\n\nDiagonal de la Pantalla: 27\"\nResolución: 1920x1080 Full HD\nTipo de Pantalla: LCD\nVelocidad de Actualización: 120Hz\nAMD FreeSync: \nNVIDIA G-Sync: \nPantalla Touch: \nBocinas Integradas:",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Cooler Master Cosmos C700P, Full Tower,",
+      "price": 47000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/612-home_default/C700P.jpg",
+      "availability": false,
+      "details": {
+        "ref": "C700P",
+        "stock": 1,
+        "description": "Cooler Master Cosmos C700P, Full Tower, ATX/Micro-ATX/Mini-ITX, USB 3.0, sin Fuente, 3 Ventiladores Instalados, Negro",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "BATERIA BLESS POWER 12V - 75AH PARA UPS",
+      "price": 2200,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/600-home_default/BATERIABLESSPOWER12V.jpg",
+      "availability": false,
+      "details": {
+        "ref": "BATERIABLESSPOWER12V",
+        "stock": 2,
+        "description": "BATERIA BLESS POWER 12V - 7.5AH PARA UPS",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video ASUS Dual RTX 4070 SUPER OC, 12GB",
+      "price": 81500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/465-home_default/DUAL-RTX4070S-O12G.jpg",
+      "availability": false,
+      "details": {
+        "ref": "DUAL-RTX4070S-O12G",
+        "stock": 1,
+        "description": "Características\n\n\nFrecuencia boost: 2520 MHz\nNúcleos CUDA: 7168\nCantidad de puertos HDMI: 1\nCantidad de DisplayPorts: 3",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard Gigabyte A620M S2H, S-AM5, AMD A620, HDMI,",
+      "price": 13999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/461-home_default/a620s2h.jpg",
+      "availability": false,
+      "details": { "ref": "A620MS2H", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Monitor Gamer TUF Gaming 24\" FHD Panel IPS 180Hz 1ms",
+      "price": 27000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/627-home_default/VG249Q3A.jpg",
+      "availability": false,
+      "details": {
+        "ref": "VG249Q3A",
+        "stock": 1,
+        "description": "Pulgadas: 23.8\nRatio de aspecto: 16:9\nÁrea de visión (HxV): 527.04 x 296.46 mm\nTipo de Luz: LED\nTipo de panel: IPS",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard Gigabyte B760M DS3H AX *DDR5*, S-1700,",
+      "price": 20022,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/455-home_default/B760MDS3HAX.jpg",
+      "availability": false,
+      "details": { "ref": "B760M DS3H AX", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Mainbaord Micro-ATX H610M H, S-1700, Intel H610,",
+      "price": 11900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/393-home_default/h610mhDDR5.jpg",
+      "availability": false,
+      "details": {
+        "ref": "H610M-H DDR5",
+        "stock": 1,
+        "description": "Características\n\n\nFamilia de procesador: Intel\nCircuito integrado de tarjeta madre: Intel H610 Express\nSocket de procesador: LGA 1700\nCircuito integrado: Intel H610 Express\nMemoria interna, máxima: 64 GB\nTipo de memoria: DDR5-SDRAM",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video Gigabyte NVIDIA GeForce RTX 4060",
+      "price": 48900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/624-home_default/GV-N4060WF2-8GD.jpg",
+      "availability": false,
+      "details": { "ref": "GV-N4060WF2-8GD", "stock": 2, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Procesador Intel Core Ultra 7 265K Intel Graphics,",
+      "price": 57500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/581-home_default/ultra7265k.jpg",
+      "availability": false,
+      "details": { "ref": "ultra7265k", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Mainboard ASUS Micro-ATX PRIME H610M-K *DDR5*",
+      "price": 11900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/454-home_default/H610MKDDR5.jpg",
+      "availability": false,
+      "details": { "ref": "H610M-K *DDR5*", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Procesador Intel Core Ultra 5 245K  LGA 1851  14x",
+      "price": 43500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/582-home_default/ultra5245k.jpg",
+      "availability": false,
+      "details": {
+        "ref": "ultra5 245k",
+        "stock": 1,
+        "description": "Procesador Intel Core Ultra 5 245K  LGA 1851  14x (6P + 8E) Cores",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard Gigabyte ATX Z790 GAMING X AX, S-1700,",
+      "price": 36999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/566-home_default/Z790GAMINGXAX.jpg",
+      "availability": false,
+      "details": {
+        "ref": "Z790 GAMING X AX",
+        "stock": 1,
+        "description": "Características\n\n\nFamilia de procesador: Intel\nCircuito integrado de tarjeta madre: Intel Z790\nSocket de procesador: LGA 1700\nCircuito integrado: Intel Z790\nMemoria interna, máxima: 128 GB\nTipo de memoria: DDR5-SDRAM",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador Intel Core Ultra 9 285K con Intel",
+      "price": 96500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/610-home_default/ultra9285k.jpg",
+      "availability": false,
+      "details": {
+        "ref": "ultra9285K",
+        "stock": 2,
+        "description": "Procesador Intel Core Ultra 9 285K con Intel Graphics, LGA 1851, 5.7GHz, 24 Núcleos, 36MB Caché - Ultra Series 2 Arrow Lake",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard Gigabyte Micro-ATX B760M DS3H, S-1700,",
+      "price": 15999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/567-home_default/B760MDS3H.jpg",
+      "availability": false,
+      "details": { "ref": "B760M DS3H", "stock": 1, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Mainboard Z890 ASUS TUF GAMING Z890-PLUS WIFI  ATX,",
+      "price": 41500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/583-home_default/asustufz8990pluswifi.jpg",
+      "availability": false,
+      "details": {
+        "ref": "ASUS TUF GAMING Z890-PLUS WIFI",
+        "stock": 1,
+        "description": "TUF GAMING Z890-PLUS WIFI",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard ASUS PRIME Z890-P, ATX, LGA 1851 (Socket",
+      "price": 33000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/602-home_default/Z890P.jpg",
+      "availability": false,
+      "details": {
+        "ref": "Z890-P",
+        "stock": 1,
+        "description": "Mainboard ASUS PRIME Z890-P, ATX, LGA 1851 (Socket V1), Intel Z890, 192GB DDR5",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard ASUS ROG STRIX Z890-E GAMING WIFI, ATX,",
+      "price": 66900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/603-home_default/Z890-E.jpg",
+      "availability": false,
+      "details": {
+        "ref": "Z890-E",
+        "stock": 1,
+        "description": "Mainboard ASUS ROG STRIX Z890-E GAMING WIFI, ATX, LGA 1851 (Socket V1), Intel Z890, 192GB DDR5, HDMI/DP para Intel",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Pasta Térmica PC - Laptop Corsair  TM30, 3 Gramos",
+      "price": 1026,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/169-home_default/tm30corsair.jpg",
+      "availability": false,
+      "details": {
+        "ref": "tm30corsair",
+        "stock": 2,
+        "description": "Pasta Térmica Corsair  TM30, 3 Gramos",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Pasta Térmica, ARCTIC MX4 8G para CPU,  LAPTOPS, PS",
+      "price": 1700,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/615-home_default/MX48G.jpg",
+      "availability": false,
+      "details": {
+        "ref": "MX-4 8G",
+        "stock": 4,
+        "description": "Pasta Térmica, ARCTIC MX4 8G para CPU,  LAPTOPS, PS",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Gamepad  MSI Force Gc300 Wireless,",
+      "price": 6500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/616-home_default/Gc300.jpg",
+      "availability": false,
+      "details": {
+        "ref": "Gc300",
+        "stock": 1,
+        "description": "Gamepad  MSI Force Gc300 Wireless, Alámbrico/Inalámbrico, USB 2.0, Negro",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video ASUS NVIDIA GeForce GT 1030, 2GB",
+      "price": 13347,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/242-home_default/gt10302gb.jpg",
+      "availability": false,
+      "details": { "ref": "PH-GT1030-02G", "stock": 0, "description": "", "warranty": "" }
+    },
+    {
+      "title": "UPS  CDP R-UPR758, 375W, 750VA, 8 Contactos,",
+      "price": 7701,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/42-home_default/upr508.jpg",
+      "availability": false,
+      "details": { "ref": "ups508", "stock": 0, "description": "", "warranty": "" }
+    },
+    {
+      "title": "Procesador Intel Core i3-10105, S-1200, 370GHz,",
+      "price": 13862,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/444-home_default/i3-10105.jpg",
+      "availability": false,
+      "details": {
+        "ref": "i3-10105",
+        "stock": 0,
+        "description": "Características\n\n\nFamilia de procesador: Intel® Core™ i3-10xxx\nModelo del procesador: i3-10105\nSocket de procesador: LGA 1200\nNúmero de núcleos: 4",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "UPS APC BVX1200L-LM Línea Interactiva, 650W, 1200VA,",
+      "price": 13000,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/402-home_default/BVX1200L-LM.jpg",
+      "availability": false,
+      "details": {
+        "ref": "BVX1200L-LM",
+        "stock": 0,
+        "description": "Características\n\n\nCapacidad de potencia de salida (VA): 1.2 kVA\nPotencia de salida: 650 W\nÍndice de aumento de energía: 273 J\nCantidad de salidas AC: 6",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Procesador AMD Ryzen 5 4600G Radeon Graphics, S-AM4",
+      "price": 12999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/261-home_default/4600g.jpg",
+      "availability": false,
+      "details": {
+        "ref": "4600G",
+        "stock": 0,
+        "description": "Procesador AMD Ryzen 5 4600G Radeon Graphics, S-AM4",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Fuente de Poder Corsair CX750 80 PLUS Bronze, 24-pin",
+      "price": 7900,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/608-home_default/cx750.jpg",
+      "availability": false,
+      "details": {
+        "ref": "",
+        "stock": 0,
+        "description": "Fuente de Poder Corsair CX750 80 PLUS Bronze, 24-pin ATX, 120mm, 750W",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Monitor Gamer Corsair Xeneon 32QHD240 LED 32\", Quad",
+      "price": 1.059,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/420-home_default/32QHD240.jpg",
+      "availability": false,
+      "details": {
+        "ref": "32QHD240",
+        "stock": 0,
+        "description": "Características\n\n\n-Diagonal de la pantalla: 81,3 cm (32\")\nTipo HD: Quad HD\nNvidia G-Sync: \nAMD FreeSync: \nVelocidad de actualización: 240 Hz\nHDMI: 2\nDisplayPort: 1",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Mainboard ASUS ATX ROG STRIX Z790-E GAMING WIFI,",
+      "price": 61504,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/265-home_default/z790egamingwifi.jpg",
+      "availability": false,
+      "details": {
+        "ref": "Z790-E GAMING WIFI",
+        "stock": 0,
+        "description": "Mainboard ASUS ATX ROG STRIX Z790-E GAMING WIFI, S-1700, Intel Z790, HDMI, 128GB DDR5",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video Asus RTX5080  6GB GDDR7 OC Edition",
+      "price": 2.999,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/611-home_default/rtx5080.jpg",
+      "availability": false,
+      "details": {
+        "ref": "RTX5080",
+        "stock": 0,
+        "description": "Tarjeta de Video Asus RTX5080  6GB GDDR7 OC Edition",
+        "warranty": ""
+      }
+    },
+    {
+      "title": "Tarjeta de Video ASUS RTX 5070, 12GB 256-bit GDDR7,",
+      "price": 91500,
+      "imageUrl": "https://www.compugamer.com.ec/gamer/621-home_default/rtx5070asus.jpg",
+      "availability": false,
+      "details": {
+        "ref": "rtx5070asusprime",
+        "stock": 0,
+        "description": "Tarjeta de Video ASUS RTX 5070, 12GB 256-bit GDDR7, PCI Express 5.0",
+        "warranty": ""
+      }
+    }
+  ]
+}
