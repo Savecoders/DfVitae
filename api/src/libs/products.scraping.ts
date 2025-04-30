@@ -90,6 +90,7 @@ async function getProductsScrape() {
               price: priceNumber,
               imageUrl: product.imageUrl,
               availability: product.availability,
+              stock: details.stock,
               details: details,
             };
 

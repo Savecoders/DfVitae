@@ -4,17 +4,18 @@ export interface TechDataSheet {
 
 export interface Details {
   ref: string;
-  stock: number;
   referiences?: string[];
   description: string;
   techDataSheet?: TechDataSheet[];
   warranty: string;
+  stock: number;
 }
 
 export interface Product {
   title: string;
   price: number;
+  stock?: number;
   imageUrl: string;
   availability?: boolean;
-  details: Partial<Details>;
+  details: Partial<Omit<Details, 'stock'>>;
 }
