@@ -1,0 +1,16 @@
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DATABASE_PASSWORD_ROOT}
+      MYSQL_DATABASE: ${DATABASE_NAME}
+    networks:
+      - app-network
+    volumes:
+      - ./database:/var/lib/mysql
+    ports:
+      - 3306:3306
+
+networks:
+  app-network:
+    driver: bridge
