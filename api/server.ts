@@ -1,5 +1,6 @@
 import express, { type Request, type Response, type NextFunction, type Express } from 'express';
 import getProductsScrape from './src/libs/products.scraping';
+import { SeedService } from './src/services/Seed.service';
 const app: Express = express();
 
 app.use(express.json());
@@ -15,7 +16,11 @@ app.get('/', async (req: Request, res: Response, next: NextFunction): Promise<vo
       success: true,
     });
   } catch (error: unknown) {
-    next(new Error((error as Error).message));
+    res.status(500).json({
+      message: 'Internal server error',
+      success: false,
+      error: (error as Error).message,
+    });
   }
 });
 
@@ -34,6 +39,18 @@ app.get('/api/scrapper', async (req: Request, res: Response, next: NextFunction)
 });
 
 // seed data
+app.get('/api/seed', async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  try {
+    const seedService = new SeedService();
+    await seedService.seed();
+    res.status(200).json({
+      message: 'Database seeded successfully',
+      success: true,
+    });
+  } catch (error: unknown) {
+    next(new Error((error as Error).message));
+  }
+});
 
 app.listen(port, () => {
   console.log(`Server is up and running on port ${port}`);
