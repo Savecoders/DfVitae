@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer';
-import type { Details, TechDataSheet } from '../types/Product';
+import type { Details } from '../types/Product';
 
 export async function extractProductDetails(productUrl: string): Promise<Partial<Details>> {
   console.log(`Opening new browser for product details: ${productUrl}`);
