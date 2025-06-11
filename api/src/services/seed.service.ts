@@ -39,10 +39,10 @@ export class SeedService {
           // Create the details with a reference to the product
           await prisma.details.create({
             data: {
-              ref: product.details.ref || '',
-              description: product.details.description || '',
-              warranty: product.details.warranty || '',
-              reference: product.details.referiences ? product.details.referiences.join(', ') : '',
+              ref: product.details?.[0]?.ref || '',
+              description: product.details?.[0]?.description || '',
+              warranty: product.details?.[0]?.warranty || '',
+              reference: product.details?.[0]?.reference || '',
               product: {
                 connect: { id: newProduct.id },
               },
