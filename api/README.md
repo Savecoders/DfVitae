@@ -1,14 +1,32 @@
-# Tech Shop Web Scraper and API
+# 🚀 Tech Store Data Mining API
 
-This project consists of a web scraper for tech products and an API to serve and manipulate the scraped data. It uses Bun.js for runtime, Express.js as the web framework, Prisma as the ORM, and MySQL as the database.
+Una API completa de Business Intelligence y Data Mining para e-commerce de tecnología, implementada con TypeScript, Prisma, y algoritmos de Machine Learning.
 
-## Prerequisites
+## 🌟 Características
 
-- [Bun](https://bun.sh) v1.1.42 or newer
-- [Docker](https://www.docker.com/) and Docker Compose
-- Node.js v16 or newer (optional, if not using Bun directly)
+### 🔍 **Customer Segmentation (K-Means)**
 
-## Setup Instructions
+- Segmentación automática de clientes usando análisis RFM (Recency, Frequency, Monetary)
+- Clasificación en 4 segmentos: Premium, Gold, Silver, Bronze
+- Análisis de comportamiento de compra
+
+### 🛒 **Market Basket Analysis (Apriori)**
+
+- Descubre patrones de compra: "Los clientes que compran X también compran Y"
+- Reglas de asociación con métricas de confianza, soporte y lift
+- Recomendaciones automáticas de productos
+
+### 📈 **Sales Prediction (Linear Regression)**
+
+- Predicción de demanda futura por producto
+- Análisis de tendencias de ventas
+- Métricas de precisión (R², MSE, MAE)
+
+### 📊 **Analytics Dashboard**
+
+- KPIs en tiempo real (ingresos, órdenes, conversión)
+- Insights de clientes y productos
+- Visualización de tendencias de ventas
 
 ### 1. Environment Setup
 
