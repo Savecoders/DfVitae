@@ -1,10 +1,10 @@
 import puppeteer from 'puppeteer';
 import PriceSanitizer from '../utils/sanitize-price.transform';
 import RemoveDots from '../utils/remove-dots.transform';
-import type { Details, Product } from '../types/Product';
+import type { Details, ScrapedProduct } from '../types/Product';
 import { extractProductDetails } from './details.scraping';
 
-async function getProductsScrape() {
+async function getProductsScrape(): Promise<ScrapedProduct[]> {
   const browser = await puppeteer.launch({
     headless: true,
     executablePath:
@@ -85,13 +85,13 @@ async function getProductsScrape() {
           try {
             const details = await extractProductDetails(product.productUrl);
 
-            const enrichedProduct: Product = {
+            const enrichedProduct: ScrapedProduct = {
               title,
               price: priceNumber,
               imageUrl: product.imageUrl,
               availability: product.availability,
-              stock: details.stock,
-              details: details,
+              stock: 0, // Default stock value since Details doesn't include stock
+              details: details && Object.keys(details).length > 0 ? [details] : [],
             };
 
             enrichedProducts.push(enrichedProduct);
@@ -102,7 +102,8 @@ async function getProductsScrape() {
               price: priceNumber,
               imageUrl: product.imageUrl,
               availability: product.availability,
-              details: {}, // Fallback to empty details if extraction fails
+              stock: 0, // Default stock value for error cases
+              details: [], // Fallback to empty array if extraction fails
             });
           }
         } else {
@@ -112,7 +113,8 @@ async function getProductsScrape() {
             price: priceNumber,
             imageUrl: product.imageUrl,
             availability: product.availability,
-            details: {},
+            stock: 0, // Default stock value when no URL is available
+            details: [],
           });
         }
       }
