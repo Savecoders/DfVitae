@@ -1,5 +1,9 @@
-import { PrismaClient } from '../../generated/prisma';
-import { SimpleLinearRegression, SimpleKMeans, normalizeData } from '../utils/simple-regression';
+import { PrismaClient } from "../../generated/prisma";
+import {
+  SimpleLinearRegression,
+  SimpleKMeans,
+  normalizeData,
+} from "../utils/simple-regression";
 import type {
   CustomerSegmentData,
   ClusterResult,
@@ -13,14 +17,13 @@ import type {
   KPIMetrics,
   CustomerInsights,
   ProductInsights,
-} from '../types/DataMining';
-import { StatusOrder } from '../types/Order';
+} from "../types/DataMining";
+import { StatusOrder } from "../types/Order";
 
 export class DataMiningService {
   private prisma = new PrismaClient();
   private readonly CONFIANCE_THRESHOLD = 0.3; // Umbral de confianza para predicciones
 
-  // ==================== CUSTOMER SEGMENTATION ====================
   async customerSegmentation(): Promise<ClusterResult> {
     try {
       // Obtener datos de clientes con órdenes
@@ -35,7 +38,7 @@ export class DataMiningService {
 
       // Calcular métricas RFM
       const rfmData = customers
-        .map(customer => {
+        .map((customer) => {
           const orders = customer.Orders;
 
           if (orders.length === 0) {
@@ -49,7 +52,10 @@ export class DataMiningService {
 
           const recency = this.calculateRecency(orders);
           const frequency = orders.length;
-          const monetary = orders.reduce((sum, order) => sum + order.totalPrice, 0);
+          const monetary = orders.reduce(
+            (sum, order) => sum + order.totalPrice,
+            0,
+          );
 
           return {
             userId: customer.id,
@@ -58,14 +64,18 @@ export class DataMiningService {
             monetary,
           };
         })
-        .filter(data => data.frequency > 0); // Filtrar clientes sin compras
+        .filter((data) => data.frequency > 0); // Filtrar clientes sin compras
 
       if (rfmData.length < 4) {
-        throw new Error('Not enough customer data for segmentation');
+        throw new Error("Not enough customer data for segmentation");
       }
 
       // Preparar datos para clustering (normalizar)
-      const features = rfmData.map(data => [data.recency, data.frequency, data.monetary]);
+      const features = rfmData.map((data) => [
+        data.recency,
+        data.frequency,
+        data.monetary,
+      ]);
 
       // Normalizar datos
       const normalizedFeatures = normalizeData(features);
@@ -78,7 +88,10 @@ export class DataMiningService {
       // Asignar nombres a segmentos basado en centroides
       const customerSegments = rfmData.map((data, index) => {
         const cluster = kmeans.clusters[index];
-        const segmentName = this.getSegmentName(data, kmeans.centroids[cluster]);
+        const segmentName = this.getSegmentName(
+          data,
+          kmeans.centroids[cluster],
+        );
 
         return {
           userId: data.userId,
@@ -101,7 +114,9 @@ export class DataMiningService {
   }
 
   // ==================== MARKET BASKET ANALYSIS ====================
-  async marketBasketAnalysis(minSupport: number = 0.05): Promise<MarketBasketResult> {
+  async marketBasketAnalysis(
+    minSupport: number = 0.05,
+  ): Promise<MarketBasketResult> {
     try {
       // Obtener transacciones (órdenes completadas)
       const orders = await this.prisma.orders.findMany({
@@ -114,22 +129,28 @@ export class DataMiningService {
       });
       // Convertir a formato de transacciones
       const transactions: Transaction[] = orders
-        .map(order => ({
+        .map((order) => ({
           transactionId: order.id,
-          items: order.items.map(item => item.product.title),
+          items: order.items.map((item) => item.product.title),
           userId: order.userId,
           date: order.createdAt,
         }))
-        .filter(transaction => transaction.items.length > 1); // Solo transacciones con múltiples items
+        .filter((transaction) => transaction.items.length > 1); // Solo transacciones con múltiples items
 
       // Aplicar algoritmo Apriori
-      const frequentItemsets = this.findFrequentItemsets(transactions, minSupport);
-      const associationRules = this.generateAssociationRules(frequentItemsets, transactions);
+      const frequentItemsets = this.findFrequentItemsets(
+        transactions,
+        minSupport,
+      );
+      const associationRules = this.generateAssociationRules(
+        frequentItemsets,
+        transactions,
+      );
 
       // Generar insights
       const insights = this.generateMarketBasketInsights(associationRules);
 
-      console.log('✅ Market basket analysis completed');
+      console.log("✅ Market basket analysis completed");
 
       return {
         frequentItemsets,
@@ -137,13 +158,16 @@ export class DataMiningService {
         insights,
       };
     } catch (error) {
-      console.error('❌ Error in market basket analysis:', error);
+      console.error("❌ Error in market basket analysis:", error);
       throw error;
     }
   }
 
   // ==================== SALES PREDICTION ====================
-  async predictProductSales(productId: string, days: number = 30): Promise<PredictionResult> {
+  async predictProductSales(
+    productId: string,
+    days: number = 30,
+  ): Promise<PredictionResult> {
     try {
       console.log(`📈 Predicting sales for product ${productId}...`);
 
@@ -154,13 +178,19 @@ export class DataMiningService {
           order: { status: StatusOrder.completed },
         },
         include: { order: true },
-        orderBy: { createdAt: 'asc' },
+        orderBy: { createdAt: "asc" },
       });
 
       // Si no hay datos suficientes para este producto específico, usar datos históricos de categoría similar
       if (salesHistory.length < 2) {
-        console.log(`⚠️ Limited data for product ${productId}, using category-based prediction`);
-        return await this.predictSalesWithFallback(productId, days, salesHistory);
+        console.log(
+          `⚠️ Limited data for product ${productId}, using category-based prediction`,
+        );
+        return await this.predictSalesWithFallback(
+          productId,
+          days,
+          salesHistory,
+        );
       }
 
       console.log(`📊 Found ${salesHistory.length} historical sales records`);
@@ -170,7 +200,7 @@ export class DataMiningService {
 
       // Preparar datos para regresión
       const x = dailySales.map((_, index) => index);
-      const y = dailySales.map(sale => sale.sales);
+      const y = dailySales.map((sale) => sale.sales);
 
       // Crear modelo de regresión lineal
       const regression = new SimpleLinearRegression(x, y);
@@ -186,7 +216,7 @@ export class DataMiningService {
         futureDate.setDate(futureDate.getDate() + i);
 
         predictions.push({
-          date: futureDate.toISOString().split('T')[0],
+          date: futureDate.toISOString().split("T")[0],
           sales: Math.round(predictedSales),
           predicted: Math.round(predictedSales),
           confidence: this.calculateConfidence(regression.r2),
@@ -197,12 +227,12 @@ export class DataMiningService {
       const accuracy = {
         mse: this.calculateMSE(
           y,
-          x.map(val => regression.predict(val)),
+          x.map((val) => regression.predict(val)),
         ),
         rmse: 0,
         mae: this.calculateMAE(
           y,
-          x.map(val => regression.predict(val)),
+          x.map((val) => regression.predict(val)),
         ),
         r2: regression.r2,
       };
@@ -210,9 +240,15 @@ export class DataMiningService {
 
       // Determinar tendencia
       const trend =
-        regression.slope > 0.1 ? 'increasing' : regression.slope < -0.1 ? 'decreasing' : 'stable';
+        regression.slope > 0.1
+          ? "increasing"
+          : regression.slope < -0.1
+            ? "decreasing"
+            : "stable";
 
-      console.log(`✅ Sales prediction completed with R² = ${regression.r2.toFixed(3)}`);
+      console.log(
+        `✅ Sales prediction completed with R² = ${regression.r2.toFixed(3)}`,
+      );
 
       return {
         productId,
@@ -222,7 +258,7 @@ export class DataMiningService {
         trend,
       };
     } catch (error) {
-      console.error('❌ Error in sales prediction:', error);
+      console.error("❌ Error in sales prediction:", error);
       throw error;
     }
   }
@@ -230,16 +266,17 @@ export class DataMiningService {
   // ==================== DASHBOARD DATA ====================
   async generateDashboardData(): Promise<DashboardData> {
     try {
-      console.log('📊 Generating comprehensive dashboard data...');
+      console.log("📊 Generating comprehensive dashboard data...");
 
-      const [kpis, customerInsights, productInsights, trends] = await Promise.all([
-        this.calculateKPIs(),
-        this.generateCustomerInsights(),
-        this.generateProductInsights(),
-        this.calculateTrends(),
-      ]);
+      const [kpis, customerInsights, productInsights, trends] =
+        await Promise.all([
+          this.calculateKPIs(),
+          this.generateCustomerInsights(),
+          this.generateProductInsights(),
+          this.calculateTrends(),
+        ]);
 
-      console.log('✅ Dashboard data generation completed');
+      console.log("✅ Dashboard data generation completed");
 
       return {
         kpis,
@@ -248,7 +285,7 @@ export class DataMiningService {
         trends,
       };
     } catch (error) {
-      console.error('❌ Error generating dashboard data:', error);
+      console.error("❌ Error generating dashboard data:", error);
       throw error;
     }
   }
@@ -261,29 +298,34 @@ export class DataMiningService {
       order.createdAt > latest.createdAt ? order : latest,
     );
 
-    return Math.floor((Date.now() - lastOrder.createdAt.getTime()) / (1000 * 60 * 60 * 24));
+    return Math.floor(
+      (Date.now() - lastOrder.createdAt.getTime()) / (1000 * 60 * 60 * 24),
+    );
   }
 
   private getSegmentName(
     data: { recency: number; frequency: number; monetary: number },
     centroid: number[],
-  ): 'Premium' | 'Gold' | 'Silver' | 'Bronze' {
+  ): "Premium" | "Gold" | "Silver" | "Bronze" {
     const [recency, frequency, monetary] = centroid;
 
-    if (monetary > 0.5 && frequency > 0.5) return 'Premium';
-    if (monetary > 0 && frequency > 0) return 'Gold';
-    if (frequency > -0.5) return 'Silver';
-    return 'Bronze';
+    if (monetary > 0.5 && frequency > 0.5) return "Premium";
+    if (monetary > 0 && frequency > 0) return "Gold";
+    if (frequency > -0.5) return "Silver";
+    return "Bronze";
   }
 
-  private findFrequentItemsets(transactions: Transaction[], minSupport: number): FrequentItemset[] {
+  private findFrequentItemsets(
+    transactions: Transaction[],
+    minSupport: number,
+  ): FrequentItemset[] {
     const totalTransactions = transactions.length;
     const minSupportCount = Math.ceil(minSupport * totalTransactions);
 
     // Contar items individuales
     const itemCounts = new Map<string, number>();
-    transactions.forEach(transaction => {
-      transaction.items.forEach(item => {
+    transactions.forEach((transaction) => {
+      transaction.items.forEach((item) => {
         itemCounts.set(item, (itemCounts.get(item) || 0) + 1);
       });
     });
@@ -340,9 +382,12 @@ export class DataMiningService {
     return rules.sort((a, b) => b.lift - a.lift);
   }
 
-  private calculateSupport(itemset: string[], transactions: Transaction[]): number {
-    const count = transactions.filter(transaction =>
-      itemset.every(item => transaction.items.includes(item)),
+  private calculateSupport(
+    itemset: string[],
+    transactions: Transaction[],
+  ): number {
+    const count = transactions.filter((transaction) =>
+      itemset.every((item) => transaction.items.includes(item)),
     ).length;
     return count / transactions.length;
   }
@@ -351,7 +396,7 @@ export class DataMiningService {
     const insights: string[] = [];
 
     const topRules = rules.slice(0, 5);
-    topRules.forEach(rule => {
+    topRules.forEach((rule) => {
       insights.push(
         `Customers who buy "${rule.antecedent[0]}" are ${rule.lift.toFixed(
           1,
@@ -365,8 +410,8 @@ export class DataMiningService {
   private groupSalesByDay(salesHistory: any[]): SalesPredictionData[] {
     const dailyMap = new Map<string, number>();
 
-    salesHistory.forEach(sale => {
-      const day = sale.order.createdAt.toISOString().split('T')[0];
+    salesHistory.forEach((sale) => {
+      const day = sale.order.createdAt.toISOString().split("T")[0];
       dailyMap.set(day, (dailyMap.get(day) || 0) + sale.quantity);
     });
 
@@ -380,12 +425,18 @@ export class DataMiningService {
   }
 
   private calculateMSE(actual: number[], predicted: number[]): number {
-    const sum = actual.reduce((acc, val, i) => acc + Math.pow(val - predicted[i], 2), 0);
+    const sum = actual.reduce(
+      (acc, val, i) => acc + Math.pow(val - predicted[i], 2),
+      0,
+    );
     return sum / actual.length;
   }
 
   private calculateMAE(actual: number[], predicted: number[]): number {
-    const sum = actual.reduce((acc, val, i) => acc + Math.abs(val - predicted[i]), 0);
+    const sum = actual.reduce(
+      (acc, val, i) => acc + Math.abs(val - predicted[i]),
+      0,
+    );
     return sum / actual.length;
   }
 
@@ -402,21 +453,21 @@ export class DataMiningService {
     const customerCount = await this.prisma.user.count();
 
     const topProducts = await this.prisma.orderItems.groupBy({
-      by: ['productId'],
+      by: ["productId"],
       _sum: { quantity: true, price: true },
       _count: true,
-      orderBy: { _sum: { quantity: 'desc' } },
+      orderBy: { _sum: { quantity: "desc" } },
       take: 5,
     });
 
     const topProductsWithNames = await Promise.all(
-      topProducts.map(async item => {
+      topProducts.map(async (item) => {
         const product = await this.prisma.products.findUnique({
           where: { id: item.productId },
         });
         return {
           productId: item.productId,
-          productName: product?.title || 'Unknown',
+          productName: product?.title || "Unknown",
           sales: item._sum.quantity || 0,
           revenue: item._sum.price || 0,
         };
@@ -426,9 +477,11 @@ export class DataMiningService {
     return {
       totalRevenue: totalRevenue._sum.totalPrice || 0,
       totalOrders,
-      averageOrderValue: totalOrders > 0 ? (totalRevenue._sum.totalPrice || 0) / totalOrders : 0,
+      averageOrderValue:
+        totalOrders > 0 ? (totalRevenue._sum.totalPrice || 0) / totalOrders : 0,
       customerCount,
-      conversionRate: customerCount > 0 ? (totalOrders / customerCount) * 100 : 0,
+      conversionRate:
+        customerCount > 0 ? (totalOrders / customerCount) * 100 : 0,
       topProducts: topProductsWithNames,
     };
   }
@@ -455,15 +508,15 @@ export class DataMiningService {
 
   private async calculateTrends(): Promise<any> {
     const salesTrend = await this.prisma.orders.groupBy({
-      by: ['createdAt'],
+      by: ["createdAt"],
       where: { status: StatusOrder.completed },
       _sum: { totalPrice: true },
       _count: true,
-      orderBy: { createdAt: 'asc' },
+      orderBy: { createdAt: "asc" },
     });
 
-    const processedTrend = salesTrend.map(item => ({
-      date: item.createdAt.toISOString().split('T')[0],
+    const processedTrend = salesTrend.map((item) => ({
+      date: item.createdAt.toISOString().split("T")[0],
       sales: item._sum.totalPrice || 0,
       orders: item._count,
     }));
@@ -496,14 +549,21 @@ export class DataMiningService {
     // Calcular baseline de ventas
     let baselineSales = 1; // Default mínimo
     if (allProducts.length > 0) {
-      const totalSales = allProducts.reduce((sum, item) => sum + item.quantity, 0);
-      const uniqueProducts = new Set(allProducts.map(item => item.productId)).size;
+      const totalSales = allProducts.reduce(
+        (sum, item) => sum + item.quantity,
+        0,
+      );
+      const uniqueProducts = new Set(allProducts.map((item) => item.productId))
+        .size;
       baselineSales = Math.max(1, Math.round(totalSales / uniqueProducts / 30)); // Promedio diario
     }
 
     // Si el producto ya tiene ventas, usar ese dato
     if (existingSales.length > 0) {
-      const existingQuantity = existingSales.reduce((sum, sale) => sum + sale.quantity, 0);
+      const existingQuantity = existingSales.reduce(
+        (sum, sale) => sum + sale.quantity,
+        0,
+      );
       baselineSales = Math.max(baselineSales, existingQuantity);
     }
 
@@ -518,7 +578,7 @@ export class DataMiningService {
       const predictedSales = Math.max(0, Math.round(baselineSales * variation));
 
       predictions.push({
-        date: futureDate.toISOString().split('T')[0],
+        date: futureDate.toISOString().split("T")[0],
         sales: predictedSales,
         predicted: predictedSales,
         confidence: 60, // Menor confianza para predicciones basadas en datos limitados
@@ -535,12 +595,14 @@ export class DataMiningService {
       const yesterday = new Date();
       yesterday.setDate(yesterday.getDate() - 1);
       historical.push({
-        date: yesterday.toISOString().split('T')[0],
+        date: yesterday.toISOString().split("T")[0],
         sales: baselineSales,
       });
     }
 
-    console.log(`✅ Fallback sales prediction completed (baseline: ${baselineSales} units/day)`);
+    console.log(
+      `✅ Fallback sales prediction completed (baseline: ${baselineSales} units/day)`,
+    );
 
     return {
       productId,
@@ -552,7 +614,7 @@ export class DataMiningService {
         mae: 0.4,
         r2: 0.3, // Baja precisión para datos limitados
       },
-      trend: 'stable' as const,
+      trend: "stable" as const,
     };
   }
 }
