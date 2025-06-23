@@ -1,3 +1,14 @@
+id,price,stock,createdAt,updatedAt,title,imageUrl,availability
+00b98b2a-8b01-425c-9b0c-0b290d9c5d48,2200,2,2025-04-30 01:08:52.640,2025-04-30 01:08:52.640,BATERIA BLESS POWER 12V - 75AH PARA UPS,https://www.compugamer.com.ec/gamer/600-home_default/BATERIABLESSPOWER12V.jpg,0
+00fcca66-9046-4201-b74d-320a1d4f4e17,7701,0,2025-04-30 01:08:52.641,2025-04-30 01:08:52.641,"UPS  CDP R-UPR758, 375W, 750VA, 8 Contactos,",https://www.compugamer.com.ec/gamer/42-home_default/upr508.jpg,0
+046f71f2-79e6-4a63-be00-e418d557e21b,41500,1,2025-04-30 01:08:52.641,2025-04-30 01:08:52.641,"Mainboard Z890 ASUS TUF GAMING Z890-PLUS WIFI  ATX,",https://www.compugamer.com.ec/gamer/583-home_default/asustufz8990pluswifi.jpg,0
+0694fc6f-00c5-4915-804f-00ea0312d833,15299,7,2025-04-30 01:08:52.640,2025-04-30 01:08:52.640,"Enfriamiento Líquido para CPU, Corsair H150 ARGB",https://www.compugamer.com.ec/gamer/310-home_default/h150rgb.jpg,0
+079eeea1-2afc-4ba4-9fc5-068d40ab8bc4,35835,1,2025-04-30 01:08:52.638,2025-04-30 01:08:52.638,Case Asus vidrio templado Corsair iCUE 7000X RGB -,https://www.compugamer.com.ec/gamer/300-home_default/7000x.jpg,0
+088978de-77aa-4433-b39a-8571445f01bf,57500,1,2025-04-30 01:08:52.640,2025-04-30 01:08:52.640,"Procesador Intel Core Ultra 7 265K Intel Graphics,",https://www.compugamer.com.ec/gamer/581-home_default/ultra7265k.jpg,0
+098e2165-d126-4f2b-8647-3531d7766c57,9138,7,2025-04-30 01:08:52.640,2025-04-30 01:08:52.640,"Monitor Quasad  195"" QM-B20 HD 1366×768 - 60Hz",https://www.compugamer.com.ec/gamer/222-home_default/QM-B20.jpg,0
+09b0bc6b-5195-41f7-971c-f06fa3c3a8be,512,2,2025-04-30 01:08:52.641,2025-04-30 01:08:52.641,"Mouse Genius Óptico DX-110, Alámbrico, USB, 1000DPI,",https://www.compugamer.com.ec/gamer/157-home_default/DX110.jpg,0
+09d612e4-6401-42ab-b09d-b051a3feb15c,13900,1,2025-04-30 01:08:52.640,2025-04-30 01:08:52.640,"Case Antec Constellation C8 con Ventana, Full Tower,",https://www.compugamer.com.ec/gamer/584-home_default/C8.jpg,0
+0a2af985-c707-4207-b99a-2c2a39335831,25500,1,2025-04-30 01:08:52.640,2025-04-30 01:08:52.640,"Monitor Gamer ASUS VY279HGR LCD 27"", 1920x1080 Full",https://www.compugamer.com.ec/gamer/626-home_default/VY279HGR.jpg,0
 0f4113cc-2d5f-4388-a99a-6c149fe887f7,15999,1,2025-04-30 01:08:52.641,2025-04-30 01:08:52.641,"Mainboard Gigabyte Micro-ATX B760M DS3H, S-1700,",https://www.compugamer.com.ec/gamer/567-home_default/B760MDS3H.jpg,0
 10d19658-43e2-492a-83f3-7bc3eca3f686,27700,1,2025-04-30 01:08:52.637,2025-04-30 01:08:52.637,"Monitor ASUS VA27EHF LED 27"", Full HD, 100Hz, HDMI,",https://www.compugamer.com.ec/gamer/219-home_default/VA27EHF.jpg,0
 147a1568-2660-4412-a635-bddd8374e9ec,2.499,1,2025-04-30 01:08:52.640,2025-04-30 01:08:52.640,"Tarjeta de Video Gigabyte RTX 4090 WINDFORCE V2 24G,",https://www.compugamer.com.ec/gamer/469-home_default/GV-N4090WF3V2-24GD.jpg,0
